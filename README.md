@@ -1,70 +1,109 @@
-# Getting Started with Create React App
+# Hangzhou Lispo Sports Co., Ltd. - Company Website
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+A professional B2B website for hunting and outdoor equipment.
 
-## Available Scripts
+## Quick Start
 
-In the project directory, you can run:
+### Local Development
+```bash
+cd E:\Company\company_claude
+npm start
+```
+The site will open at http://localhost:3000
 
-### `npm start`
+### Build for Production
+```bash
+npm run build
+```
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Deploy to GitHub Pages
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+### Step 1: Create GitHub Repository
+1. Go to https://github.com/new
+2. Create a new repository named `company_claude` (or any name you prefer)
+3. Keep it public for free GitHub Pages hosting
 
-### `npm test`
+### Step 2: Update Homepage URL
+Edit `package.json` and change the homepage to match your GitHub username:
+```json
+"homepage": "https://YOUR_GITHUB_USERNAME.github.io/company_claude"
+```
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### Step 3: Initialize Git and Push
+```bash
+cd E:\Company\company_claude
+git init
+git add .
+git commit -m "Initial commit - Lispo Sports website"
+git branch -M main
+git remote add origin https://github.com/YOUR_USERNAME/company_claude.git
+git push -u origin main
+```
 
-### `npm run build`
+### Step 4: Deploy to GitHub Pages
+```bash
+npm run deploy
+```
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### Step 5: Enable GitHub Pages
+1. Go to your repository on GitHub
+2. Click "Settings" > "Pages"
+3. Under "Source", select "gh-pages" branch
+4. Click "Save"
+5. Your site will be live at: `https://YOUR_USERNAME.github.io/company_claude`
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## Project Structure
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+```
+company_claude/
+├── public/
+│   └── images/          # Product images
+├── src/
+│   ├── components/
+│   │   ├── Header.js    # Navigation header
+│   │   └── Footer.js    # Site footer
+│   ├── pages/
+│   │   ├── Home.js      # Homepage
+│   │   ├── Products.js  # Product listing
+│   │   ├── ProductDetail.js  # Product details
+│   │   ├── About.js     # About page
+│   │   └── Contact.js   # Contact page
+│   ├── data/
+│   │   └── products.js  # Product data
+│   ├── App.js           # Main app component
+│   └── App.css          # All styles
+└── package.json
+```
 
-### `npm run eject`
+## Customization
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+### Update Company Information
+- Edit `src/components/Header.js` - Company name in header
+- Edit `src/components/Footer.js` - Footer info and contact
+- Edit `src/pages/About.js` - About page content
+- Edit `src/pages/Contact.js` - Contact information
+- Edit `src/pages/Home.js` - Homepage content
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+### Add/Edit Products
+Edit `src/data/products.js` to add or modify products:
+```javascript
+{
+  id: 27,
+  name: "New Product Name",
+  category: "Category Name",
+  description: "Product description...",
+  price: "Contact for Price",
+  image: "/images/your-image.jpg",
+  features: ["Feature 1", "Feature 2", "Feature 3"]
+}
+```
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+### Add New Images
+1. Place images in `public/images/`
+2. Reference them in products.js as `/images/filename.jpg`
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+## Contact Information
+- **Company**: Hangzhou Lispo Sports Co., Ltd.
+- **Email**: tpmam2026@gmail.com
+- **Phone/WhatsApp**: +86 13705811629
+- **Location**: Hangzhou, Zhejiang, China
