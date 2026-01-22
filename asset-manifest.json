@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/Lispo-1/static/css/main.2b3c3d51.css",
-    "main.js": "/Lispo-1/static/js/main.f0fe849b.js",
+    "main.js": "/Lispo-1/static/js/main.3159ccc8.js",
     "static/js/453.01966bc8.chunk.js": "/Lispo-1/static/js/453.01966bc8.chunk.js",
     "index.html": "/Lispo-1/index.html",
     "main.2b3c3d51.css.map": "/Lispo-1/static/css/main.2b3c3d51.css.map",
-    "main.f0fe849b.js.map": "/Lispo-1/static/js/main.f0fe849b.js.map",
+    "main.3159ccc8.js.map": "/Lispo-1/static/js/main.3159ccc8.js.map",
     "453.01966bc8.chunk.js.map": "/Lispo-1/static/js/453.01966bc8.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.2b3c3d51.css",
-    "static/js/main.f0fe849b.js"
+    "static/js/main.3159ccc8.js"
   ]
 }
