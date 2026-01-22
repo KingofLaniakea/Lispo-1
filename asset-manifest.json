@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/Lispo-1/static/css/main.2b3c3d51.css",
-    "main.js": "/Lispo-1/static/js/main.3159ccc8.js",
-    "static/js/453.01966bc8.chunk.js": "/Lispo-1/static/js/453.01966bc8.chunk.js",
-    "index.html": "/Lispo-1/index.html",
-    "main.2b3c3d51.css.map": "/Lispo-1/static/css/main.2b3c3d51.css.map",
-    "main.3159ccc8.js.map": "/Lispo-1/static/js/main.3159ccc8.js.map",
-    "453.01966bc8.chunk.js.map": "/Lispo-1/static/js/453.01966bc8.chunk.js.map"
+    "main.css": "./static/css/main.2b3c3d51.css",
+    "main.js": "./static/js/main.f4c80e95.js",
+    "static/js/453.01966bc8.chunk.js": "./static/js/453.01966bc8.chunk.js",
+    "index.html": "./index.html",
+    "main.2b3c3d51.css.map": "./static/css/main.2b3c3d51.css.map",
+    "main.f4c80e95.js.map": "./static/js/main.f4c80e95.js.map",
+    "453.01966bc8.chunk.js.map": "./static/js/453.01966bc8.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.2b3c3d51.css",
-    "static/js/main.3159ccc8.js"
+    "static/js/main.f4c80e95.js"
   ]
 }
