@@ -2,7 +2,7 @@
 
 Professional B2B website for hunting and outdoor equipment.
 
-**Live Site**: https://KingofLaniakea.github.io/Lispo_claude
+**Live Site**: https://KingofLaniakea.github.io/Lispo-1
 
 ## Features
 
